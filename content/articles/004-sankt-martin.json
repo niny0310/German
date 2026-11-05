@@ -1,0 +1,105 @@
+{
+  "id": "004-sankt-martin",
+  "number": "004",
+  "level": "A2",
+  "title_de": "Sankt Martin",
+  "title_zh": "聖馬丁節的提燈遊行",
+  "tags": ["節慶", "德國文化"],
+  "register": "du",
+  "minutes": 2,
+  "published": "2026-11-05",
+  "cover": { "emoji": "🏮", "color": "plum" },
+
+  "text": [
+    "Am 11. November feiert man in Deutschland den {{Martinstag|martinstag}}. Letztes Jahr [[bin|g1]] ich mit meiner {{Gastfamilie|gastfamilie}} in Bonn zum {{Laternenumzug|laternenumzug}} [[gegangen|g1]].",
+    "Am Abend war es schon dunkel und kalt. Viele Kinder haben bunte {{Laternen|laterne}} getragen. Sie haben die Laternen selbst {{gebastelt|basteln}}. Wir sind langsam durch die Straßen gelaufen und haben Lieder {{gesungen|singen}}.",
+    "Vorne ist ein Mann auf einem {{Pferd|pferd}} geritten. Das war Sankt Martin. Die Geschichte ist sehr alt: Martin war ein Soldat. Er hat seinen {{Mantel|mantel}} mit einem armen Mann geteilt, [[weil|g2]] der Mann sehr {{gefroren|frieren}} hat.",
+    "Am Ende gab es ein großes {{Feuer|feuer}}. Jedes Kind hat einen Weckmann bekommen. Das ist ein süßes {{Brot|brot}}, und es sieht aus wie ein kleiner Mann. Ich mag dieses {{Fest|fest}}, [[weil|g2]] es so {{gemütlich|gemuetlich}} ist."
+  ],
+
+  "vocab": [
+    { "id": "martinstag", "de": "Martinstag", "pos": "n", "gender": "der", "plural": "die Martinstage", "count": "c", "zh": "聖馬丁節（11 月 11 日）", "note": "節日名稱前通常要加冠詞：den Martinstag feiern" },
+    { "id": "gastfamilie", "de": "Gastfamilie", "pos": "n", "gender": "die", "plural": "die Gastfamilien", "count": "c", "zh": "寄宿家庭", "note": "mit meiner Gastfamilie＝和我的寄宿家庭（mit 後面接與格）" },
+    { "id": "laternenumzug", "de": "Laternenumzug", "pos": "n", "gender": "der", "plural": "die Laternenumzüge", "count": "c", "zh": "提燈遊行", "note": "die Laterne（燈籠）＋ der Umzug（遊行）；複合名詞的性別看最後一個字" },
+    { "id": "laterne", "de": "Laterne", "pos": "n", "gender": "die", "plural": "die Laternen", "count": "c", "zh": "燈籠" },
+    { "id": "basteln", "de": "basteln", "pos": "v", "forms": "bastelt – hat gebastelt", "zh": "動手做（手工藝）" },
+    { "id": "singen", "de": "singen", "pos": "v", "forms": "singt – hat gesungen", "zh": "唱歌" },
+    { "id": "pferd", "de": "Pferd", "pos": "n", "gender": "das", "plural": "die Pferde", "count": "c", "zh": "馬", "note": "auf einem Pferd reiten＝騎馬" },
+    { "id": "mantel", "de": "Mantel", "pos": "n", "gender": "der", "plural": "die Mäntel", "count": "c", "zh": "大衣；披風" },
+    { "id": "frieren", "de": "frieren", "pos": "v", "forms": "friert – hat gefroren", "zh": "覺得冷；冷得發抖", "note": "Ich friere.＝我好冷。" },
+    { "id": "feuer", "de": "Feuer", "pos": "n", "gender": "das", "plural": "die Feuer", "count": "cu", "zh": "火；營火", "note": "不可數＝火這種東西（Feuer ist heiß.）；可數＝一堆火、營火（ein großes Feuer）" },
+    { "id": "brot", "de": "Brot", "pos": "n", "gender": "das", "plural": "die Brote", "count": "cu", "zh": "麵包", "note": "不可數＝麵包這種食物（Ich esse gern Brot.）；可數＝一條／一個麵包（ein Brot, zwei Brote）" },
+    { "id": "fest", "de": "Fest", "pos": "n", "gender": "das", "plural": "die Feste", "count": "c", "zh": "節日；慶典" },
+    { "id": "gemuetlich", "de": "gemütlich", "pos": "adj", "zh": "溫馨的；舒適愜意的", "note": "很有德國味的字，形容讓人放鬆、有溫暖感覺的氣氛" }
+  ],
+
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "現在完成式（Perfekt）：說過去發生的事",
+      "explain": "德文口語說過去的事情，最常用現在完成式：助動詞 haben 或 sein 放在第二位，過去分詞放在句尾。大部分動詞用 haben；表示「移動、從一個地方到另一個地方」的動詞（gehen、fahren、laufen、reiten）用 sein。",
+      "pattern": "主詞 ＋ haben / sein（第二位）＋ …… ＋ 過去分詞（句尾）",
+      "examples": [
+        { "de": "Ich **habe** gestern Pizza **gegessen**.", "zh": "我昨天吃了披薩。" },
+        { "de": "Wir **sind** nach München **gefahren**.", "zh": "我們去了慕尼黑。" },
+        { "de": "**Hast** du die Hausaufgaben **gemacht**?", "zh": "你功課做完了嗎？" }
+      ]
+    },
+    {
+      "id": "g2",
+      "title": "weil：因為……（動詞放句尾）",
+      "explain": "weil 用來說明原因。weil 帶出的子句裡，變化過的動詞要放在子句的最後面；如果是完成式，就是助動詞放最後。weil 前面要加逗號。",
+      "pattern": "主要子句, weil ＋ 主詞 ＋ …… ＋ 動詞（句尾）",
+      "examples": [
+        { "de": "Ich bleibe zu Hause, **weil** ich krank **bin**.", "zh": "我待在家，因為我生病了。" },
+        { "de": "Sie lernt Deutsch, **weil** sie in Berlin studieren **möchte**.", "zh": "她學德文，因為她想去柏林念書。" },
+        { "de": "Er ist müde, **weil** er wenig geschlafen **hat**.", "zh": "他很累，因為他睡得很少。" }
+      ]
+    }
+  ],
+
+  "quiz": [
+    {
+      "q": "德國人在哪一天慶祝聖馬丁節？",
+      "options": ["11 月 1 日", "11 月 11 日", "12 月 11 日"],
+      "answer": 1,
+      "explain": "第一段：Am 11. November feiert man in Deutschland den Martinstag."
+    },
+    {
+      "q": "故事裡的馬丁做了什麼事？",
+      "options": ["把自己的披風分給一個窮人", "送燈籠給小朋友", "騎馬到波昂參加遊行"],
+      "answer": 0,
+      "explain": "第三段：Er hat seinen Mantel mit einem armen Mann geteilt.（他把披風分給了一個窮人。）"
+    },
+    {
+      "q": "作者為什麼喜歡這個節日？",
+      "options": ["因為可以吃很多糖果", "因為可以騎馬", "因為氣氛很溫馨"],
+      "answer": 2,
+      "explain": "第四段：Ich mag dieses Fest, weil es so gemütlich ist.（我喜歡這個節日，因為它很溫馨。）"
+    }
+  ],
+
+  "translation": [
+    "11 月 11 日，德國人會慶祝聖馬丁節。去年我和寄宿家庭一起在波昂參加了提燈遊行。",
+    "晚上天已經又黑又冷。很多小孩提著五顏六色的燈籠，那些燈籠都是他們自己做的。我們慢慢地走過街道，一邊走一邊唱歌。",
+    "隊伍最前面有一個男人騎著馬，他就是聖馬丁。這是一個很古老的故事：馬丁原本是一名士兵，因為有個窮人冷得發抖，他就把自己的披風分給了那個人。",
+    "最後還有一個大營火。每個小孩都拿到一個 Weckmann，那是一種甜麵包，看起來像一個小人。我喜歡這個節日，因為它的氣氛好溫馨。"
+  ],
+
+  "culture": {
+    "title": "德國生活小知識",
+    "points": [
+      { "heading": "聖馬丁是誰？", "body": "聖馬丁（Martin von Tours）是西元 4 世紀的羅馬士兵，後來成為主教。傳說他在寒冷的冬天用劍把自己的披風割成兩半，分給路邊的乞丐，所以成為「分享」的象徵。" },
+      { "heading": "小朋友的提燈遊行", "body": "每年 11 月 11 日前後，德國很多幼稚園和小學會舉辦提燈遊行。孩子們會提前自己做燈籠，晚上一邊走一邊唱聖馬丁的歌，有些地方還會有人扮成聖馬丁騎馬帶隊。" },
+      { "heading": "節日的食物", "body": "在萊茵地區，孩子們會拿到像小人形狀的甜麵包 Weckmann，其他地區有不同的名字。大人則常吃烤鵝，叫做 Martinsgans。" },
+      { "heading": "有點像台灣的元宵節", "body": "提著燈籠在夜裡走，很像台灣元宵節提燈籠的感覺。不同的是，聖馬丁節的主角是小朋友，而且大家會一起邊走邊唱歌。" }
+    ],
+    "terms": [
+      { "de": "die Martinsgans", "zh": "聖馬丁烤鵝" },
+      { "de": "der Weckmann", "zh": "小人形狀的甜麵包" },
+      { "de": "das Martinsfeuer", "zh": "聖馬丁營火" },
+      { "de": "das Martinslied", "zh": "聖馬丁之歌" },
+      { "de": "der Bettler", "zh": "乞丐" }
+    ]
+  }
+}

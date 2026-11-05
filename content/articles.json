@@ -1,0 +1,6 @@
+[
+  {"id": "004-sankt-martin", "number": "004", "level": "A2", "title_de": "Sankt Martin", "title_zh": "聖馬丁節的提燈遊行", "tags": ["節慶", "德國文化"], "minutes": 2, "published": "2026-11-05", "cover": {"emoji": "🏮", "color": "plum"}},
+  {"id": "003-pfand-flaschen-zurueckgeben", "number": "003", "level": "A1", "title_de": "Pfand: Flaschen zurückgeben", "title_zh": "退瓶拿押金", "tags": ["德國文化", "生活知識"], "minutes": 1, "published": "2026-11-05", "cover": {"emoji": "♻️", "color": "amber"}},
+  {"id": "002-mein-zimmer-im-wohnheim", "number": "002", "level": "A1", "title_de": "Mein Zimmer im Wohnheim", "title_zh": "我的宿舍房間", "tags": ["交換生活", "日常生活"], "minutes": 2, "published": "2026-11-05", "cover": {"emoji": "🛏️", "color": "sky"}},
+  {"id": "001-im-supermarkt", "number": "001", "level": "A1", "title_de": "Im Supermarkt", "title_zh": "在超市", "tags": ["日常生活", "飲食"], "minutes": 1, "published": "2026-11-05", "cover": {"emoji": "🛒", "color": "moss"}}
+]

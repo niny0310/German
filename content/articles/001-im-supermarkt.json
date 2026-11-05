@@ -1,0 +1,103 @@
+{
+  "id": "001-im-supermarkt",
+  "number": "001",
+  "level": "A1",
+  "title_de": "Im Supermarkt",
+  "title_zh": "在超市",
+  "tags": ["日常生活", "飲食"],
+  "register": "Sie",
+  "minutes": 1,
+  "published": "2026-11-05",
+  "cover": { "emoji": "🛒", "color": "moss" },
+
+  "text": [
+    "Heute ist Montag. Mia hat [[keine|g2]] {{Milch|milch}} mehr. Sie geht in den {{Supermarkt|supermarkt}}.",
+    "Sie braucht [[eine Flasche|g1]] Milch, [[ein Kilo|g1]] {{Äpfel|apfel}} und sechs {{Eier|ei}}. Sie kauft auch ein {{Brot|brot}} und [[200 Gramm|g1]] {{Käse|kaese}}.",
+    "Die {{Tomaten|tomate}} sind heute sehr {{billig|billig}}. Mia nimmt vier Tomaten. Aber es gibt [[keinen|g2]] {{Reis|reis}} mehr. Schade!",
+    "An der {{Kasse|kasse}} fragt die Kassiererin: „Brauchen Sie eine {{Tüte|tuete}}?“ Mia sagt: „Nein, danke. Ich habe eine Tasche.“ Alles {{kostet|kosten}} 14,80 Euro."
+  ],
+
+  "vocab": [
+    { "id": "milch", "de": "Milch", "pos": "n", "gender": "die", "plural": "—", "count": "u", "zh": "牛奶", "note": "要數的時候用量詞：eine Flasche Milch（一瓶牛奶）、ein Liter Milch（一公升牛奶）" },
+    { "id": "supermarkt", "de": "Supermarkt", "pos": "n", "gender": "der", "plural": "die Supermärkte", "count": "c", "zh": "超市", "note": "in den Supermarkt gehen＝去超市（受格）" },
+    { "id": "apfel", "de": "Apfel", "pos": "n", "gender": "der", "plural": "die Äpfel", "count": "c", "zh": "蘋果", "note": "複數要加變音：Apfel → Äpfel" },
+    { "id": "ei", "de": "Ei", "pos": "n", "gender": "das", "plural": "die Eier", "count": "c", "zh": "蛋" },
+    { "id": "brot", "de": "Brot", "pos": "n", "gender": "das", "plural": "die Brote", "count": "cu", "zh": "麵包", "note": "不可數＝麵包這種食物（Ich esse gern Brot.）；可數＝一條／一個麵包（ein Brot, zwei Brote）" },
+    { "id": "kaese", "de": "Käse", "pos": "n", "gender": "der", "plural": "—", "count": "u", "zh": "起司", "note": "通常用重量來數：200 Gramm Käse。指不同種類的起司時可以說 die Käsesorten" },
+    { "id": "tomate", "de": "Tomate", "pos": "n", "gender": "die", "plural": "die Tomaten", "count": "c", "zh": "番茄" },
+    { "id": "billig", "de": "billig", "pos": "adj", "zh": "便宜的", "note": "反義詞：teuer（貴的）" },
+    { "id": "reis", "de": "Reis", "pos": "n", "gender": "der", "plural": "—", "count": "u", "zh": "米；米飯", "note": "要數的時候說 ein Kilo Reis、eine Packung Reis（一包米）" },
+    { "id": "kasse", "de": "Kasse", "pos": "n", "gender": "die", "plural": "die Kassen", "count": "c", "zh": "收銀台", "note": "an der Kasse＝在收銀台（與格）" },
+    { "id": "tuete", "de": "Tüte", "pos": "n", "gender": "die", "plural": "die Tüten", "count": "c", "zh": "袋子（塑膠袋、紙袋）" },
+    { "id": "kosten", "de": "kosten", "pos": "v", "forms": "kostet – hat gekostet", "zh": "價格是；花費", "note": "Was kostet das?＝這個多少錢？" }
+  ],
+
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "量詞＋名詞：eine Flasche Milch",
+      "explain": "不可數名詞（例如 Milch、Käse、Reis）不能直接加數字，要用容器或重量來數。德文的量詞和名詞中間不加任何字（不像英文要加 of）。Gramm、Kilo 這類重量單位即使數量大於一，也不用變成複數。",
+      "pattern": "數字 ＋ 量詞 ＋ 名詞",
+      "examples": [
+        { "de": "Ich kaufe **zwei Flaschen** Wasser.", "zh": "我買兩瓶水。" },
+        { "de": "Wir brauchen **500 Gramm** Mehl.", "zh": "我們需要 500 公克的麵粉。" },
+        { "de": "Er nimmt **ein Kilo** Kartoffeln.", "zh": "他拿了一公斤馬鈴薯。" }
+      ]
+    },
+    {
+      "id": "g2",
+      "title": "kein：否定名詞（沒有……）",
+      "explain": "要說「沒有某樣東西」時，用 kein 放在名詞前面，不用 nicht。kein 的變化和 ein 一樣：受格的陽性名詞要用 keinen，陰性和複數用 keine，中性用 kein。不可數名詞也可以用 kein。kein … mehr＝已經沒有了。",
+      "pattern": "kein / keine / keinen ＋ 名詞",
+      "examples": [
+        { "de": "Ich habe **keine** Zeit.", "zh": "我沒有時間。" },
+        { "de": "Es gibt **kein** Brot mehr.", "zh": "已經沒有麵包了。" },
+        { "de": "Wir haben **keinen** Zucker.", "zh": "我們沒有糖。" }
+      ]
+    }
+  ],
+
+  "quiz": [
+    {
+      "q": "Mia 為什麼去超市？",
+      "options": ["她想買一個袋子", "她家裡沒有牛奶了", "她要去打工"],
+      "answer": 1,
+      "explain": "第一段：Mia hat keine Milch mehr.（Mia 已經沒有牛奶了。）"
+    },
+    {
+      "q": "超市裡什麼東西賣完了？",
+      "options": ["米", "番茄", "起司"],
+      "answer": 0,
+      "explain": "第三段：Aber es gibt keinen Reis mehr.（可是已經沒有米了。）"
+    },
+    {
+      "q": "Mia 為什麼不需要袋子？",
+      "options": ["袋子太貴了", "她只買一點點東西", "她自己帶了袋子"],
+      "answer": 2,
+      "explain": "第四段：Ich habe eine Tasche.（我有帶袋子。）"
+    }
+  ],
+
+  "translation": [
+    "今天是星期一。Mia 家裡已經沒有牛奶了，所以她去超市。",
+    "她需要一瓶牛奶、一公斤蘋果和六顆蛋。她也買了一條麵包和 200 公克的起司。",
+    "今天番茄很便宜，Mia 拿了四顆番茄。可是米已經賣完了，真可惜！",
+    "在收銀台，收銀員問：「您需要袋子嗎？」Mia 說：「不用，謝謝。我有帶袋子。」全部一共 14.80 歐元。"
+  ],
+
+  "culture": {
+    "title": "德國生活小知識",
+    "points": [
+      { "heading": "記得自己帶袋子", "body": "德國從 2022 年起禁止商店提供一般的輕薄塑膠購物袋。結帳時店員常會問要不要買袋子，所以很多人習慣隨身帶一個布袋或摺疊購物袋。" },
+      { "heading": "結帳速度超快", "body": "德國超市的收銀員刷條碼非常快，東西會一路滑到後面的檯子上。大家通常先把東西放回購物車，付完錢再到旁邊慢慢裝袋，不會擋到後面的客人。" },
+      { "heading": "星期天別想買東西", "body": "德國大部分的超市星期天都不營業，只有車站或機場裡的少數商店會開。台灣的便利商店 24 小時都在，但在德國，星期六就要記得把週末要吃的東西買好。" }
+    ],
+    "terms": [
+      { "de": "der Einkaufswagen", "zh": "購物車" },
+      { "de": "der Kassenbon", "zh": "收據" },
+      { "de": "das Angebot", "zh": "特價商品" },
+      { "de": "die Einkaufstasche", "zh": "購物袋" },
+      { "de": "der Einkaufszettel", "zh": "購物清單" }
+    ]
+  }
+}

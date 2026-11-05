@@ -1,0 +1,87 @@
+{
+  "id": "000-slug",
+  "number": "000",
+  "level": "A1",
+  "title_de": "",
+  "title_zh": "",
+  "tags": [],
+  "register": "du",
+  "minutes": 1,
+  "published": "YYYY-MM-DD",
+  "cover": {
+    "emoji": "📄",
+    "color": "moss"
+  },
+  "text": [
+    "第一段德文。用 {{顯示文字|單字id}} 標記單字，用 [[顯示文字|文法id]] 標記文法。"
+  ],
+  "vocab": [
+    {
+      "id": "nomen",
+      "de": "Nomen",
+      "pos": "n",
+      "gender": "das",
+      "plural": "die Nomen",
+      "count": "c",
+      "zh": "名詞範例",
+      "note": "（選填）"
+    },
+    {
+      "id": "verb",
+      "de": "verb",
+      "pos": "v",
+      "forms": "第三人稱單數 – 現在完成式",
+      "zh": "動詞範例"
+    },
+    {
+      "id": "adjektiv",
+      "de": "adjektiv",
+      "pos": "adj",
+      "zh": "形容詞範例"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "",
+      "explain": "",
+      "pattern": "",
+      "examples": [
+        {
+          "de": "用 **粗體** 標出重點。",
+          "zh": ""
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "",
+      "options": [
+        "",
+        "",
+        ""
+      ],
+      "answer": 0,
+      "explain": ""
+    }
+  ],
+  "translation": [
+    "第一段的中文翻譯（段落數要和 text 一樣）。"
+  ],
+  "culture": {
+    "title": "德國生活小知識",
+    "points": [
+      {
+        "heading": "",
+        "body": ""
+      }
+    ],
+    "terms": [
+      {
+        "de": "der/die/das ...",
+        "zh": ""
+      }
+    ]
+  }
+}

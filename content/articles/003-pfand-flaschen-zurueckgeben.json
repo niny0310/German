@@ -1,0 +1,101 @@
+{
+  "id": "003-pfand-flaschen-zurueckgeben",
+  "number": "003",
+  "level": "A1",
+  "title_de": "Pfand: Flaschen zurückgeben",
+  "title_zh": "退瓶拿押金",
+  "tags": ["德國文化", "生活知識"],
+  "register": "du",
+  "minutes": 1,
+  "published": "2026-11-05",
+  "cover": { "emoji": "♻️", "color": "amber" },
+
+  "text": [
+    "Paul trinkt viel {{Wasser|wasser}}. Jetzt hat er zehn {{leere|leer}} {{Flaschen|flasche}} in der {{Küche|kueche}}.",
+    "Er bringt die Flaschen in den {{Supermarkt|supermarkt}}. Dort steht ein {{Pfandautomat|pfandautomat}}. Paul [[gibt die Flaschen zurück|g1]].",
+    "Für eine Flasche {{bekommt|bekommen}} er [[25 Cent|g2]]. Zehn Flaschen, das sind [[2,50 Euro|g2]]. Dann druckt der Automat einen {{Bon|bon}}.",
+    "Paul geht zur {{Kasse|kasse}} und bekommt das {{Geld|geld}}. Er kauft wieder Wasser. Bald hat er wieder leere Flaschen!"
+  ],
+
+  "vocab": [
+    { "id": "wasser", "de": "Wasser", "pos": "n", "gender": "das", "plural": "—", "count": "u", "zh": "水", "note": "要數的時候用量詞：eine Flasche Wasser、ein Glas Wasser" },
+    { "id": "leer", "de": "leer", "pos": "adj", "zh": "空的", "note": "反義詞：voll（滿的）" },
+    { "id": "flasche", "de": "Flasche", "pos": "n", "gender": "die", "plural": "die Flaschen", "count": "c", "zh": "瓶子" },
+    { "id": "kueche", "de": "Küche", "pos": "n", "gender": "die", "plural": "die Küchen", "count": "c", "zh": "廚房" },
+    { "id": "supermarkt", "de": "Supermarkt", "pos": "n", "gender": "der", "plural": "die Supermärkte", "count": "c", "zh": "超市" },
+    { "id": "pfandautomat", "de": "Pfandautomat", "pos": "n", "gender": "der", "plural": "die Pfandautomaten", "count": "c", "zh": "退瓶機", "note": "das Pfand（押金）＋ der Automat（自動機器）組成的複合名詞；複合名詞的性別看最後一個字" },
+    { "id": "bekommen", "de": "bekommen", "pos": "v", "forms": "bekommt – hat bekommen", "zh": "得到；收到", "note": "注意：不是英文的 become（變成）" },
+    { "id": "bon", "de": "Bon", "pos": "n", "gender": "der", "plural": "die Bons", "count": "c", "zh": "單據；收據", "note": "退瓶機印出的單據也叫 der Pfandbon" },
+    { "id": "kasse", "de": "Kasse", "pos": "n", "gender": "die", "plural": "die Kassen", "count": "c", "zh": "收銀台" },
+    { "id": "geld", "de": "Geld", "pos": "n", "gender": "das", "plural": "—", "count": "u", "zh": "錢", "note": "不可數：說 viel Geld（很多錢），不說 viele Gelder" }
+  ],
+
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "可分離動詞：zurückgeben（歸還）",
+      "explain": "有些動詞前面有一個可以拆開的前綴，例如 zurück-geben。在一般的句子裡，動詞本體放在第二位，前綴要跑到句子的最後面。查字典時要找原形 zurückgeben。",
+      "pattern": "主詞 ＋ 動詞本體（第二位）＋ …… ＋ 前綴（句尾）",
+      "examples": [
+        { "de": "Ich **gebe** das Buch morgen **zurück**.", "zh": "我明天把書還回去。" },
+        { "de": "Der Zug **fährt** um acht Uhr **ab**.", "zh": "火車八點出發。" },
+        { "de": "**Kaufst** du heute **ein**?", "zh": "你今天要去買東西嗎？" }
+      ]
+    },
+    {
+      "id": "g2",
+      "title": "價格怎麼說：2,50 Euro",
+      "explain": "德文用逗號當小數點，所以 2,50 是兩塊五十分。唸的時候先說歐元再說分，而且「分」通常省略不說。只有分的時候就直接說數字加 Cent。另外，德文的二位數是個位在前，25 唸成 fünfundzwanzig（五和二十）。",
+      "pattern": "X,YY Euro → X Euro YY",
+      "examples": [
+        { "de": "Das kostet **1,99 Euro**（ein Euro neunundneunzig）.", "zh": "這個 1.99 歐元。" },
+        { "de": "Der Kaffee kostet **3,20 Euro**（drei Euro zwanzig）.", "zh": "咖啡 3.20 歐元。" },
+        { "de": "Ein Brötchen kostet **45 Cent**（fünfundvierzig Cent）.", "zh": "一個小餐包 45 分。" }
+      ]
+    }
+  ],
+
+  "quiz": [
+    {
+      "q": "Paul 為什麼去超市？",
+      "options": ["去買新的瓶子", "去退空瓶子", "去找工作"],
+      "answer": 1,
+      "explain": "第二段：Er bringt die Flaschen in den Supermarkt.（他把瓶子帶去超市。）"
+    },
+    {
+      "q": "退一個瓶子可以拿回多少錢？",
+      "options": ["25 分", "2.50 歐元", "10 分"],
+      "answer": 0,
+      "explain": "第三段：Für eine Flasche bekommt er 25 Cent.（一個瓶子他可以拿到 25 分。）2.50 歐元是十個瓶子的總數。"
+    },
+    {
+      "q": "退瓶機最後給 Paul 什麼？",
+      "options": ["現金", "一瓶水", "一張單據"],
+      "answer": 2,
+      "explain": "第三段：Dann druckt der Automat einen Bon.（然後機器印出一張單據。）要拿單據去收銀台才能領錢。"
+    }
+  ],
+
+  "translation": [
+    "Paul 很常喝水。現在他的廚房裡有十個空瓶子。",
+    "他把瓶子帶去超市。那裡有一台退瓶機，Paul 把瓶子退回去。",
+    "每個瓶子可以拿回 25 分。十個瓶子，就是 2.50 歐元。然後機器印出一張單據。",
+    "Paul 到收銀台領了錢。他又買了水。很快地，他又會有一堆空瓶子了！"
+  ],
+
+  "culture": {
+    "title": "德國生活小知識",
+    "points": [
+      { "heading": "什麼是 Pfand？", "body": "在德國買瓶裝飲料時，價格會另外加上一筆押金，叫做 Pfand。把空瓶或空罐拿回商店退還，就能把押金拿回來。一次性的塑膠瓶和鋁罐押金是 25 分，可以重複使用的玻璃瓶通常是 8 或 15 分。" },
+      { "heading": "怎麼看能不能退？", "body": "瓶身上有押金標誌的才能退。一般超市都有退瓶機，把瓶子一個一個放進去，最後按按鈕就會印出單據。單據可以在結帳時折抵，或直接換成現金。" },
+      { "heading": "和台灣有什麼不一樣？", "body": "台灣主要靠資源回收車處理瓶罐，德國則用押金讓大家主動把瓶子拿回來。因為空瓶可以換錢，在德國的街上，有時會看到有人把空瓶放在垃圾桶旁邊，方便需要的人拿去退。" }
+    ],
+    "terms": [
+      { "de": "das Pfand", "zh": "押金" },
+      { "de": "die Einwegflasche", "zh": "一次性瓶子" },
+      { "de": "die Mehrwegflasche", "zh": "可重複使用的瓶子" },
+      { "de": "der Pfandbon", "zh": "退瓶單據" },
+      { "de": "die Dose", "zh": "罐子（鋁罐）" }
+    ]
+  }
+}

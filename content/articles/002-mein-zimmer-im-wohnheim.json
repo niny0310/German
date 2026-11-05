@@ -1,0 +1,102 @@
+{
+  "id": "002-mein-zimmer-im-wohnheim",
+  "number": "002",
+  "level": "A1",
+  "title_de": "Mein Zimmer im Wohnheim",
+  "title_zh": "我的宿舍房間",
+  "tags": ["交換生活", "日常生活"],
+  "register": "du",
+  "minutes": 2,
+  "published": "2026-11-05",
+  "cover": { "emoji": "🛏️", "color": "sky" },
+
+  "text": [
+    "Hallo! Ich heiße Jonas. Ich komme aus Taiwan. Jetzt studiere ich in Deutschland und wohne in einem {{Wohnheim|wohnheim}}.",
+    "[[Mein|g2]] {{Zimmer|zimmer}} ist klein, aber hell. [[Es gibt|g1]] ein {{Bett|bett}}, [[einen|g1]] {{Tisch|tisch}}, [[einen|g1]] {{Stuhl|stuhl}} und [[einen|g1]] {{Schrank|schrank}}. Das {{Fenster|fenster}} ist groß.",
+    "Die {{Küche|kueche}} ist nicht in meinem Zimmer. Ich {{teile|teilen}} die Küche mit vier Studenten. [[Meine|g2]] {{Mitbewohnerin|mitbewohnerin}} Lea kommt aus Spanien. Sie kocht oft Paella.",
+    "Am Wochenende ist das Wohnheim oft {{laut|laut}}. Aber ich mag mein Zimmer. Es ist jetzt mein Zuhause."
+  ],
+
+  "vocab": [
+    { "id": "wohnheim", "de": "Wohnheim", "pos": "n", "gender": "das", "plural": "die Wohnheime", "count": "c", "zh": "宿舍", "note": "學生宿舍也可以說 das Studentenwohnheim" },
+    { "id": "zimmer", "de": "Zimmer", "pos": "n", "gender": "das", "plural": "die Zimmer", "count": "c", "zh": "房間", "note": "單複數同形" },
+    { "id": "bett", "de": "Bett", "pos": "n", "gender": "das", "plural": "die Betten", "count": "c", "zh": "床" },
+    { "id": "tisch", "de": "Tisch", "pos": "n", "gender": "der", "plural": "die Tische", "count": "c", "zh": "桌子" },
+    { "id": "stuhl", "de": "Stuhl", "pos": "n", "gender": "der", "plural": "die Stühle", "count": "c", "zh": "椅子" },
+    { "id": "schrank", "de": "Schrank", "pos": "n", "gender": "der", "plural": "die Schränke", "count": "c", "zh": "櫃子；衣櫃" },
+    { "id": "fenster", "de": "Fenster", "pos": "n", "gender": "das", "plural": "die Fenster", "count": "c", "zh": "窗戶" },
+    { "id": "kueche", "de": "Küche", "pos": "n", "gender": "die", "plural": "die Küchen", "count": "c", "zh": "廚房" },
+    { "id": "teilen", "de": "teilen", "pos": "v", "forms": "teilt – hat geteilt", "zh": "分享；共用", "note": "etwas mit jemandem teilen＝和某人共用某樣東西" },
+    { "id": "mitbewohnerin", "de": "Mitbewohnerin", "pos": "n", "gender": "die", "plural": "die Mitbewohnerinnen", "count": "c", "zh": "（女）室友", "note": "男性室友是 der Mitbewohner" },
+    { "id": "laut", "de": "laut", "pos": "adj", "zh": "吵的；大聲的", "note": "反義詞：leise（安靜的）" }
+  ],
+
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "es gibt ＋ 受格：有……",
+      "explain": "es gibt 表示「某處有某樣東西」，後面的名詞要用受格。受格時只有陽性會變：ein → einen；陰性 eine 和中性 ein 都不變。這也是為什麼背名詞一定要連性別一起背。",
+      "pattern": "Es gibt ＋ einen（陽性）／eine（陰性）／ein（中性）＋ 名詞",
+      "examples": [
+        { "de": "Hier **gibt es einen** Park.", "zh": "這裡有一座公園。" },
+        { "de": "**Es gibt eine** Bäckerei in der Nähe.", "zh": "附近有一間麵包店。" },
+        { "de": "Im Zimmer **gibt es kein** WLAN.", "zh": "房間裡沒有無線網路。" }
+      ]
+    },
+    {
+      "id": "g2",
+      "title": "物主冠詞 mein / meine：我的",
+      "explain": "「我的」要跟著後面名詞的性別變化。主格時，陽性和中性名詞用 mein，陰性和複數名詞用 meine。",
+      "pattern": "mein ＋ 陽性／中性名詞；meine ＋ 陰性／複數名詞",
+      "examples": [
+        { "de": "Das ist **mein** Bruder.", "zh": "這是我的哥哥。" },
+        { "de": "**Meine** Mutter wohnt in Taipei.", "zh": "我的媽媽住在台北。" },
+        { "de": "**Meine** Bücher sind im Schrank.", "zh": "我的書在櫃子裡。" }
+      ]
+    }
+  ],
+
+  "quiz": [
+    {
+      "q": "Jonas 來自哪裡？",
+      "options": ["西班牙", "台灣", "德國"],
+      "answer": 1,
+      "explain": "第一段：Ich komme aus Taiwan.（我來自台灣。）"
+    },
+    {
+      "q": "關於 Jonas 的房間，哪一個說法是對的？",
+      "options": ["房間裡有廚房", "房間很大", "房間小但很明亮"],
+      "answer": 2,
+      "explain": "第二段：Mein Zimmer ist klein, aber hell.（我的房間很小，但很明亮。）"
+    },
+    {
+      "q": "Lea 常常做什麼？",
+      "options": ["煮西班牙海鮮飯", "在房間讀書", "週末去旅行"],
+      "answer": 0,
+      "explain": "第三段：Sie kocht oft Paella.（她常常煮西班牙海鮮飯。）"
+    }
+  ],
+
+  "translation": [
+    "哈囉！我叫 Jonas，我來自台灣。現在我在德國念書，住在學生宿舍。",
+    "我的房間很小，但很明亮。房間裡有一張床、一張桌子、一把椅子和一個衣櫃。窗戶很大。",
+    "廚房不在我的房間裡，我和另外四個學生共用廚房。我的室友 Lea 來自西班牙，她常常煮西班牙海鮮飯。",
+    "週末的時候宿舍常常很吵。不過我喜歡我的房間，它現在就是我的家。"
+  ],
+
+  "culture": {
+    "title": "德國生活小知識",
+    "points": [
+      { "heading": "WG：德國學生最常見的住法", "body": "很多德國學生會和別人合租一間公寓，這叫做 WG（Wohngemeinschaft）。每個人有自己的房間，廚房和浴室大家共用。學生宿舍也常是這種設計。" },
+      { "heading": "宿舍要很早申請", "body": "德國的學生宿舍大多由各地的 Studierendenwerk（學生服務中心）管理，價格比外面便宜。在熱門的大學城，宿舍常常要排隊，所以拿到入學許可後最好馬上申請。" },
+      { "heading": "共用廚房的禮儀", "body": "共用廚房時，用完要馬上清洗自己的鍋碗，冰箱裡的食物最好貼上名字。德國也很重視垃圾分類，常見的有紙類、包裝類、廚餘和一般垃圾，各城市的規定可能不太一樣。" }
+    ],
+    "terms": [
+      { "de": "die WG", "zh": "合租公寓" },
+      { "de": "die Miete", "zh": "房租" },
+      { "de": "das Badezimmer", "zh": "浴室" },
+      { "de": "der Mülleimer", "zh": "垃圾桶" },
+      { "de": "der Kühlschrank", "zh": "冰箱" }
+    ]
+  }
+}
