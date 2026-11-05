@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>德文自學小教室</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,400;0,700;1,400&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📗</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+  <div class="flag-stripe"></div>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <span class="brand__name">德文自學小教室</span>
+        <span class="brand__de">Deutsch lernen, Schritt für Schritt</span>
+      </a>
+      <nav class="site-nav"><a href="index.html#all">全部文章</a></nav>
+    </div>
+  </header>
+
+  <!-- 文章內容全部由 assets/js/article.js 依網址的 ?id= 讀取 JSON 後產生 -->
+  <main id="main" class="wrap--narrow">
+    <p class="error" id="loading">載入中……</p>
+  </main>
+
+  <!-- 點單字或文法時出現的小視窗 -->
+  <div class="pop" id="pop" role="dialog" aria-modal="false" hidden></div>
+
+  <footer class="site-footer">
+    <div class="wrap">德文自學小教室 · 所有文章皆為原創 · 朗讀使用瀏覽器內建語音</div>
+  </footer>
+
+  <script src="assets/js/speech.js"></script>
+  <script src="assets/js/article.js"></script>
+</body>
+</html>

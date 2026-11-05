@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>德文自學小教室｜分級德文閱讀</title>
+  <meta name="description" content="給中文母語初學者的德文分級閱讀：朗讀、點選查單字、名詞性別上色、文法解說、閱讀測驗與德國生活小知識。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,400;0,700;1,400&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📗</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+  <div class="flag-stripe"></div>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <span class="brand__name">德文自學小教室</span>
+        <span class="brand__de">Deutsch lernen, Schritt für Schritt</span>
+      </a>
+      <nav class="site-nav"><a href="#all">全部文章</a></nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="hero">
+      <h1>德文自學小教室</h1>
+      <p class="hero__de">Kleine Texte, großer Fortschritt.</p>
+      <p>一篇篇短短的德文閱讀，從超市、宿舍到德國節慶。每篇都有德語朗讀、點一下就能查的單字、核心文法、閱讀測驗，還有在台灣課本裡學不到的德國生活小知識。</p>
+
+      <div class="legend" aria-label="顏色說明">
+        <span class="legend__title">名詞顏色</span>
+        <span><strong class="g-der">der</strong> 陽性</span>
+        <span><strong class="g-die">die</strong> 陰性</span>
+        <span><strong class="g-das">das</strong> 中性</span>
+        <span><strong class="g-pl">die (Pl.)</strong> 複數</span>
+        <span class="legend__title">標籤</span>
+        <span class="count count--c">可數</span>
+        <span class="count count--u">不可數</span>
+        <span class="count count--cu">可數／不可數</span>
+      </div>
+    </section>
+
+    <div class="section-title"><h2>✨ 最新文章</h2></div>
+    <div class="featured" id="featured"></div>
+
+    <div class="section-title" id="all">
+      <h2>📚 全部文章</h2>
+      <span class="meta" id="count"></span>
+    </div>
+    <div class="filters">
+      <div class="filters__row" id="level-filter" role="group" aria-label="依程度篩選">
+        <span class="filters__label">程度</span>
+      </div>
+      <div class="filters__row" id="tag-filter" role="group" aria-label="依主題篩選">
+        <span class="filters__label">主題</span>
+      </div>
+    </div>
+    <div class="cards" id="cards" aria-live="polite"></div>
+
+    <div class="section-title"><h2>🧭 怎麼使用</h2></div>
+    <div class="howto">
+      <div class="howto__step"><b>1. 先自己讀一遍</b><p>點畫底線的單字或黃色文法，就能看到中文解釋。</p></div>
+      <div class="howto__step"><b>2. 跟著朗讀</b><p>聽整篇或一句一句聽，可以把速度調慢到 0.6 倍。</p></div>
+      <div class="howto__step"><b>3. 做測驗、看翻譯</b><p>先做完閱讀測驗，再打開中文翻譯對答案。</p></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">德文自學小教室 · 所有文章皆為原創 · 朗讀使用瀏覽器內建語音</div>
+  </footer>
+
+  <script src="assets/js/home.js"></script>
+</body>
+</html>
